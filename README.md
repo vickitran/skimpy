@@ -21,8 +21,8 @@ toy_data = pd.merge(toy_data,data_dict,how = "left", on = "target")
 skimpy.skim(toy_data.drop("target",1),["target_names"])
 
 ```
-
-[!ipython-output](ex_img/ex_img.png)
+# output
+![console-output](https://github.com/vickitran/skimpy/blob/master/skimpy/ex_img/ex_img.png)
 
 # warning!!!
 skimpy does not play nice on windows computers. [unicode block characters - windows support](https://stackoverflow.com/questions/28485545/where-is-upper-one-quarter-block-letter-in-unicode)
