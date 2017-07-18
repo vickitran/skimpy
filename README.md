@@ -1,6 +1,12 @@
 # skimpy
 Summary statistics prettier. Heavily inspired by [skimr](https://github.com/ropenscilabs/skimr)
 
+# how to install
+
+1. clone repo
+2. cd into repo
+3. run `python setup.py install`
+
 # how to use
 
 ``` python
